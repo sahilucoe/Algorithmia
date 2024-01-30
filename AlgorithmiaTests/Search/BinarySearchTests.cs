@@ -1,13 +1,13 @@
 using Algorithmia.Search;
 
-namespace AlgorithmiaTests
+namespace AlgorithmiaTests.Search
 {
-    public class BinarySearchTests
+    internal class BinarySearchTests
     {
         private ISearch<int> _search;
         private List<int> _collection;
 
-       [SetUp]
+        [SetUp]
         public void Setup()
         {
             _search = new BinarySearch<int>();

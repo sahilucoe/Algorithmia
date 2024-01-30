@@ -1,6 +1,10 @@
 ﻿
 namespace Algorithmia.Search
 {
+    /// <summary>
+    /// Represents functionality to search using BinarySearch algorithm.
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public class BinarySearch<T> : ISearch<T> where T : IComparable<T>
     {
         /// <summary>
