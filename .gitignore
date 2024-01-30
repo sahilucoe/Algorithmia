@@ -1,0 +1,27 @@
+# Visual Studio specific files/folders
+.vs/
+obj/
+bin/
+.idea/
+*.suo
+*.user
+
+# Cache files
+*.cache
+
+# NuGet packages
+/packages/
+
+# Node.js dependencies
+/node_modules/
+
+# Debug/Release folders
+/bin-debug/
+/bin-release/
+
+# Logs
+/logs/
+
+# Temporary folders
+/temp/
+/tmp/
